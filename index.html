@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aadil Blog</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#" class="logo"><span>b</span>logger</a>
+      <nav class="navbar">
+        <a href="#Aadil">Aadil</a>
+        <a href="#posts">my posts</a>
+        <a href="#contact">contact me</a>
+      </nav>
+      <div class="icons">
+        <button onclick="handleHamburg()">
+          <i class="fas fa-bars" id="menu-bars"></i>
+        </button>
+        <button id="srchBtn" onclick="myFunction()">
+          <i id="srchIcon" class="fas fa-search" id="search-icon"></i>
+        </button>
+      </div>
+
+      <form action="" class="search-form" id="myDiv" style="display: none">
+        <input type="search" placeholder="search here..." class="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </header>
+    <!-- header section ends -->
+    <!-- banner section starts -->
+
+    <section class="banner" id="banner">
+      <div class="contect">
+        <h3>explore the nature</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, vel.
+        </p>
+        <a href="#" class="btn">my blogs</a>
+      </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- posts section starts -->
+    <section class="container" id="posts">
+      <div class="posts-container">
+        <div class="post">
+          <img src="images/543_378726_tech.hero.jpg" alt="" class="image" />
+          <div class="date">
+            <i class="far fa-clock"></i>
+            <span>1st may,2021</span>
+          </div>
+          <h3 class="title">What is a software developer do?</h3>
+          <p class="text">
+            Is software developer a hard job? It's not as hard as many people
+            think. Yes, it's difficult, but if you spend some time learning
+            programming and do it regularly, you'll learn everything that is
+            needed to become a developer and you'll get your first job without a
+            computer science degree!
+          </p>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi est
+            nostrum minus amet voluptatum reiciendis aliquid beatae,
+            perspiciatis illo aspernatur sequi minima accusantium nulla?
+            Obcaecati quidem laboriosam voluptate fugit esse.
+          </p>
+          <div class="link">
+            <a href="#" class="user">
+              <i class="far fa-user"></i>
+              <span>by admin</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-comment"></i>
+              <span>(45)</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-share-square"></i>
+              <span>(29)</span>
+            </a>
+          </div>
+        </div>
+        <div class="post">
+          <img
+            src="images/software-dev-requirements.png"
+            alt=""
+            class="image"
+          />
+          <div class="data">
+            <i class="far fa-clock"></i>
+            <span>1st may,2021</span>
+          </div>
+          <h3 class="title">Software Developer Requirements:</h3>
+          <p class="text">
+            Bachelor's degree in computer science or related degree. Knowledge
+            of the software development life-cycle. The desire to work in a
+            fast-paced environment. Ability to develop unit testing of code
+            components or complete applications. Creativity is always a plus.
+          </p>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi est
+            nostrum minus amet voluptatum reiciendis aliquid beatae,
+            perspiciatis illo aspernatur sequi minima accusantium nulla?
+            Obcaecati quidem laboriosam voluptate fugit esse.
+          </p>
+          <div class="link">
+            <a href="#" class="user">
+              <i class="far fa-user"></i>
+              <span>by admin</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-comment"></i>
+              <span>(45)</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-share-square"></i>
+              <span>(29)</span>
+            </a>
+          </div>
+        </div>
+        <div class="post">
+          <img src="images/15746791505487.jpg" alt="" class="image" />
+          <div class="data">
+            <i class="far fa-clock"></i>
+            <span>1st may,2021</span>
+          </div>
+          <h3 class="title">Software Developer</h3>
+          <p class="text">
+            Developers are often natural problem solvers who possess strong
+            analytical skills and the ability to think outside the box. Software
+            developers are employed in .
+          </p>
+          <p class="text">
+            Developers create diagrams that help programmers write computer
+            code. Software developers create the computer applications that
+            allow users to do specific tasks and the underlying systems that run
+            the devices or control networks.
+          </p>
+          <div class="link">
+            <a href="#" class="user">
+              <i class="far fa-user"></i>
+              <span>by admin</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-comment"></i>
+              <span>(45)</span>
+            </a>
+            <a href="#" class="icon">
+              <i class="far fa-share-square"></i>
+              <span>(29)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="box">
+          <h3 class="title">about me</h3>
+          <div class="about">
+            <img
+              src="images/WhatsApp Image 2022-05-30 at 1.12.46 AM.jpeg"
+              alt=""
+            />
+            <h3>Aadil Devla</h3>
+            <p>This is My Bloge Page</p>
+            <div class="follow">
+              <a class="fab fa-facebook-f"></a>
+              <a class="fab fa-twitter"></a>
+              <a class="fab fa-instagram"></a>
+              <a class="fab fa-linkedin"></a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <h3 class="titel">categories</h3>
+          <div class="categries">
+            <a href="#">travel <span>42</span></a>
+            <a href="#">photography <span>52</span></a>
+            <a href="#">technology <span>39</span></a>
+            <a href="#">fashion <span>28</span></a>
+            <a href="#">study <span>45</span></a>
+            <a href="#">science <span>29</span></a>
+            <a href="#">music <span>03</span></a>
+            <a href="#">public <span>22</span></a>
+            <a href="#">business <span>11</span></a>
+            <a href="#">sports <span>09</span></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3 class="title">popular posts</h3>
+          <div class="p-post">
+            <a href="#">
+              <h3>01. blog title goes here</h3>
+              <span><i class="far fa-clock"></i>1st may,2022</span>
+            </a>
+            <a href="#">
+              <h3>02. blog title goes here</h3>
+              <span><i class="far fa-clock"></i>1st may,2022</span>
+            </a>
+            <a href="#">
+              <h3>03. blog title goes here</h3>
+              <span><i class="far fa-clock"></i>1st may,2022</span>
+            </a>
+            <a href="#">
+              <h3>04. blog title goes here</h3>
+              <span><i class="far fa-clock"></i>1st may,2022</span>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <h3 class="title">popular tags</h3>
+          <div class="tags">
+            <a href="#">travel</a>
+            <a href="#">photography</a>
+            <a href="#">technology</a>
+            <a href="#">fashion</a>
+            <a href="#">study</a>
+            <a href="#">music</a>
+            <a href="#">public</a>
+            <a href="#">business</a>
+            <a href="#">sports</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- posts section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact">
+      <form action="">
+        <h3>contact me</h3>
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="E-mail" />
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+        <textarea
+          class="txtArea"
+          name=""
+          placeholder="message"
+          id=""
+          width="auto"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="credit">
+        createdby <span>mr.Aadil Devla</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
